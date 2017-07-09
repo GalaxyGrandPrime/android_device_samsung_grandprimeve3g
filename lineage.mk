@@ -18,5 +18,5 @@ PRODUCT_CHARACTERISTICS := phone
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=grandprimeve3g \
-    BUILD_FINGERPRINT=samsung/grandprimeve3g/grandprimeve3g:7.1.2/N2G47W/3938523:userdebug/release-keys \
-    PRIVATE_BUILD_DESC="grandprimeve3g-userdebug 7.1.2 N2G47W 3938523 release-keys"
+    BUILD_FINGERPRINT=samsung/grandprimeve3g/grandprimeve3g:7.1.2/NJH47D/f4b6758015:userdebug/release-keys \
+    PRIVATE_BUILD_DESC="grandprimeve3g-userdebug 7.1.2 NJH47D f4b6758015 release-keys"
