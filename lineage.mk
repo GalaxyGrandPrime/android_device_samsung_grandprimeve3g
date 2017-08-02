@@ -15,6 +15,7 @@ PRODUCT_MODEL := SM-G531H
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 
+<<<<<<< HEAD
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=grandprimeve3g \
