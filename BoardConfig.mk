@@ -63,7 +63,7 @@ TARGET_BOARD_FRONT_CAMERA_ROTATION := false
 TARGET_BOARD_CAMERA_ROTATION_CAPTURE := false
 
 #support hal1.0,hal3.2
-TARGET_BOARD_CAMERA_HAL_VERSION := 1.0
+TARGET_BOARD_CAMERA_HAL_VERSION := 3.2
 
 # camera sensor type
 CAMERA_SENSOR_TYPE_BACK := "s5k4h5yc_mipi"
@@ -139,8 +139,18 @@ TARGET_BOARD_BACK_CAMERA_MIPI := phyab
 TARGET_BOARD_FRONT_CAMERA_CCIR_PCLK := source0
 TARGET_BOARD_BACK_CAMERA_CCIR_PCLK := source0
 
+#third lib
+TARGET_BOARD_USE_THRID_LIB := true
+TARGET_BOARD_USE_THIRD_AWB_LIB_A := true
+TARGET_BOARD_USE_ALC_AE_AWB := false
+TARGET_BOARD_USE_THIRD_AF_LIB_A := true
+
 #hdr effect enable
 TARGET_BOARD_CAMERA_HDR_CAPTURE := true
+
+#ZSL & facebeauty lib
+TARGET_BOARD_CAMERA_SPRD_PRIVATE_ZSL := false
+TARGET_BOARD_CAMERA_FACE_BEAUTY := false
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/grandprimeve3g/bluetooth
@@ -155,3 +165,6 @@ TARGET_SCREEN_WIDTH := 540
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SM-G531H,SM-G531BT,grandprimeve3g,grandprimeve3gdtv,grandprimeve3gub,grandprimeve3gxx,grandprimeve3gdtvvj
+
+# For camera parameters
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/grandprimeve3g/include
